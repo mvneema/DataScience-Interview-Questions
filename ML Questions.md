@@ -91,9 +91,9 @@ There are a number of ways to handle null values including the following:
 ### 16. How do you prevent overfitting and complexity of a model?
 For those who don’t know, overfitting is a modeling error when a function fits the data too closely, resulting in high levels of error when new data is introduced to the model.
 There are a number of ways that you can prevent overfitting of a model:
-### Cross-validation:###
+### Cross-validation:
 Cross-validation is a technique used to assess how well a model performs on a new independent dataset. The simplest example of cross-validation is when you split your data into two groups: training data and testing data, where you use the training data to build the model and the testing data to test the model.
-### Regularization:###
+### Regularization:
 Overfitting occurs when models have higher degree polynomials. Thus, regularization reduces overfitting by penalizing higher degree polynomials.
 Reduce the number of features: You can also reduce overfitting by simply reducing the number of input features. You can do this by manually removing features, or you can use a technique, called Principal Component Analysis, which projects higher dimensional data (eg. 3 dimensions) to a smaller space (eg. 2 dimensions).
 Ensemble Learning Techniques: Ensemble techniques take many weak learners and converts them into a strong learner through bagging and boosting. Through bagging and boosting, these techniques tend to overfit less than their alternative counterparts.
